@@ -1,0 +1,109 @@
+.CSSPic img{
+    height:350px;
+    object-fit: cover;
+    width: 50%;
+    padding-left: 20px;
+}
+
+*.Bytwo{
+    box-sizing: border-box;
+}
+
+.Bytwo{
+    float: left;
+    width: 40%;
+    padding: 10px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.Twobytwo:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.UD{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.Bytwo:hover{
+    transform: scale(1.2);
+}
+
+.COl11{
+    border-top: double;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    border-right: double;
+}
+
+.COl22{
+    border-top: double;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    border-right: double;
+}
+
+.COl44{
+    border-top: double;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+aside{
+    width: 20%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    background-color:gray;
+    transition: width 0.5s;
+}
+
+aside:hover{
+    width: 200px;
+    font-weight: bold;
+}
+
+#P4H{
+    text-align: center;
+}
+
+.CSSPic h3{
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 980px){
+
+    .CSSPic img{
+        object-fit: cover;
+        width: 80%;
+        padding-top: 5px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .Twobytwo{
+        padding-left: 10%;
+        padding-right: 10%;
+        width: 80%;
+    }
+
+    aside{
+        width: 35%;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+
+    aside{
+        width: 35%;
+        height: auto;
+    }
+
+}

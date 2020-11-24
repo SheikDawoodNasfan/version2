@@ -1,0 +1,935 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+header{
+    height:150px ;
+}
+
+.mobnav {
+    position: sticky;
+    top: 0;
+    background-color: darkgreen;
+    overflow: hidden;
+    margin-top: -5px;
+    z-index: 99;
+}
+
+#navc a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-weight: bolder;
+    text-align: center;
+    float: left;
+    transition-duration: 0.5s;
+}
+
+#navc a:hover{
+    background-color: white;
+    transition-duration: 0.5s;
+    color: darkgreen;
+}
+
+
+
+#searchbar{
+    border-radius: 10px;
+    width: 130px;
+}
+
+
+h1{
+    font-family: Aldrich;
+}
+
+
+header h1 {  
+    font-size: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: block;
+    width: auto;
+    text-align: center;    
+}
+
+
+footer{
+    background-image: url("images/bg-footer-dark-1170x230.jpg");
+    height: 250px;
+}
+
+
+footer h1{
+    font-size: 40px;
+    color: white;
+}
+
+
+#navb a{
+    text-decoration: none;
+    display: block;
+    font-family: sans-serif;
+    color:white;
+    height: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#navb {
+    border-left: 1px solid whitesmoke;
+    padding-left: 40px;
+    padding-top: 10px;
+    border-right: 1px solid whitesmoke;
+    column-count: 2;
+    column-fill: balance;
+    height: 200px;
+}
+
+
+footer div{
+    display: inline-block;
+    width: 23%;
+    padding-top: 15px;
+}
+
+
+footer div:first-child{
+    float: left;
+    padding-left: 20px;
+    width: 23%;
+}
+
+footer div:nth-child(2){
+    width: 50%;
+}
+
+
+
+footer div:last-child{
+    float: right;
+    text-align: right;
+    padding-right: 10px;
+    width: 23%;
+    color: white;
+    padding-top: 20px;
+}
+
+
+footer div a:last-child{
+    text-decoration: none;
+    color: white;
+    text-align: justify;
+}
+
+
+
+
+#Overlap img{
+    width: 100%;
+    height: 400px;
+    filter: blur(3px);
+    
+}
+
+#Overlap div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    transform: translate(-50%, -50%);   
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    transition-duration: 0.1s;
+}
+
+
+#Container{
+    overflow: auto;
+    width: 100%;
+    display: inline-block;
+}
+
+#Container h3{
+    text-align: center;
+}
+
+#Container div{
+    float: left;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+
+#Container img{
+    float: right;
+    width: 25%;
+    overflow: auto;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#Hero{
+    overflow: auto;
+    width: 100%; 
+    display: inline-block;  
+}
+
+#Hero h3{
+    text-align: center;
+}
+
+#Hero div{
+    float: right;
+    padding-right: 2%;
+}
+
+#Hero img{
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+
+#Space{
+    overflow: auto;
+    width: 100%;
+    display: inline-block;
+}
+
+#Space h3{
+    text-align: center;
+}
+
+#Space div{
+    float: left;
+    padding-left: 2%;
+}
+
+#Space img{
+    float: right;
+    width: 25%;
+    overflow: auto;
+    margin-top: 35px; 
+
+}
+
+.Root{
+    width: 70%;
+    padding-top: 20px;
+}
+
+.Content{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    word-spacing: 4px;
+    line-height: 23px;
+}
+
+main{
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+
+#Carry{
+    padding-left: 10px;
+}
+
+#Carry h4{
+    text-align: center;
+}
+
+#Carry ol{
+    column-count: 3;
+}
+
+#Gallery{
+    margin: auto;
+}
+
+
+.inbuilt{
+    float: left;
+    padding: 5px;
+    width: 33.33%;
+}
+
+
+
+#Gallery::after{
+    clear: both;
+    content: "";
+    display: grid;
+}
+
+
+
+
+
+h2{
+    padding-left: 20px;
+}
+
+.Rule{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 75%;
+}
+
+.Content1 img{
+    height: 350px;
+    object-fit: cover;
+    width: 60%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.Content1{
+    padding-top: 40px;
+}
+
+table {
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+    width: 80%;
+    border: double;
+    border-collapse: collapse;
+    transition: 0.5s;
+}
+
+table:hover{
+    transform: scale(1.1);
+    
+}
+
+table th{
+    border-bottom: double;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+table tfoot{
+    border-top: double;
+    border-bottom: double;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.COl1{
+    width: 15%;
+    text-align: center;
+    border-right: double;
+}
+
+.COl2{
+    width: 50%;
+    border-right: double;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-align: center;
+}
+
+.COl3{
+    width: 25%;
+    border-right: double;
+}
+
+
+.COl3 li{
+    list-style-type: circle;
+}
+
+.COl3 li:hover{
+    list-style-type: disc;
+
+}
+
+.COl4{
+    width: 10%;
+    text-align: center;
+}
+
+
+
+
+h3{
+    text-align: left;
+    padding-left: 20px;
+    text-align: left;
+}
+
+p{
+    padding-left: 20px;
+}
+
+.inline{
+    overflow: auto;
+    width: 100%;
+    display: inline-block;
+}
+
+.inline p{
+    padding-right: 2%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.inline img{
+    float: left;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+
+ol{
+    column-count: 2;
+    padding-left: 50px;
+}
+
+.Content2{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+#Inside{
+    width: 75%;
+}
+
+.Sub{
+    text-align: left;
+}
+
+.Linking{
+    float: right;
+}
+
+.Linking a{
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    transition-duration: 0.2s;
+    background-color: white;
+    color: black;
+    border: 1px solid;
+    text-decoration: none;
+}
+
+
+.Linking a:hover{
+    background-color: green;
+    color: white;
+}
+
+
+
+.back{
+    background-image: url(images/Tea\ Cup.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.Prodview{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: double;
+    font-size: small;
+    max-height: 300px;
+}
+
+
+.Prodview p{
+    padding-left: 0px;
+}
+
+
+.Prodview button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color:green;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.Prodview button:hover{
+    opacity: 0.7;
+}
+
+.Align1{
+    float: left;
+    width: 20%;
+    padding: 10px;
+}
+
+.Alignfirst::after{
+    content: "";
+    display: table;
+    clear: both; 
+}
+
+.Align2{
+    float: left;
+    width: 20%;
+    padding: 10px;
+}
+
+.Alignsecond::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.Align3{
+    float: left;
+    width: 20%;
+    padding: 10px;
+}
+
+.Alignthird::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.Alignfirst{
+    box-sizing: border-box;
+}
+
+.Alignsecond{
+    box-sizing: border-box;
+}
+
+.Alignthird{
+    box-sizing: border-box;
+}
+
+
+.h1s{
+    
+}
+
+#sideway{
+    float: right;
+    background-color: whitesmoke;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 25%;
+}
+
+#sideway button{
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 2px 2px;
+    transition-duration: 0.4s;
+}
+
+#sideway .b1{
+    background-color: white;
+    color: black;
+    border: 1px solid;
+}
+
+#sideway .b1:hover{
+    background-color: green;
+    color: white;
+}
+
+#sideway .b2{
+    background-color: white;
+    color: black;
+    border: 1px solid;
+}
+
+#sideway .b2:hover{
+    background-color:blue;
+    color: white;
+}
+
+#sideway .b3{
+    background-color: white;
+    color: black;
+    border: 1px solid;
+}
+
+#sideway .b3:hover{
+    background-color: gray;
+    color: white;
+}
+
+#sideway .b4{
+    background-color: white;
+    color: black;
+    border: 1px solid;
+}
+
+#sideway .b4:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+.Route{
+    background-image: url("images/4177bfe634caae0466833b66e803bbea.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#Lane{
+    margin-top: 0px;
+    padding-left: 0%;
+}
+
+form{
+    width: fit-content;
+    padding-left: 10px;
+}
+
+
+
+@media screen and (max-width: 980px){
+    .Content img{
+        height: 250px;
+        object-fit: cover;
+        padding: 0px;
+    }
+
+    #Hero img{
+        width: 100%;
+        padding: 0%;
+    }
+
+    #Space img{
+        width: 100%;
+        padding: 0%;
+    }
+
+    #Container img{
+        width: 40%;
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+
+    #Space div{
+        padding-left: 0%;
+    }
+
+    #Container div{
+        padding-left: 0%;
+    }
+
+    .Root{
+        width: 98%;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    #Overlap img{
+        height: 500px;     
+    }
+
+    #Overlap div{
+        width: 300px;
+        transition-duration: 0.1s;
+        top: 50%;
+    }
+    
+    #Gallery img{
+        width:100%
+    }
+
+    footer{
+        height: 450px;
+    }
+
+    footer div{
+        display: block;
+        width: 90%;
+        padding-top: 15px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    footer div:first-child{
+        float: left;
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        display: block;
+    }
+    
+    footer div:nth-child(2){
+        width: 90%;
+        display: inline-block;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
+    footer div:last-child{
+        float: right;
+        text-align: right;
+        padding-right: 5%;
+        padding-left: 5%;
+        width: 90%;
+        color: white;
+        display: block;
+        padding-top: 0px;
+        text-align: left;
+    }
+    
+    
+    footer div a:last-child{
+        text-decoration: none;
+        color: white;
+        text-align: justify;
+        display: block;
+        padding-left: 0%;
+        padding-right: 5%;
+        width: 90%;
+    }
+
+
+    .Content1 img{
+        width: 80%;
+        padding-left: 10%;
+        padding-right: 10%;
+        object-fit: cover;
+    }
+
+    .Content1 p{
+        text-align: left;
+        justify-content: center;
+    }
+    .Content2 img{
+        object-fit: cover;
+        width: 80%;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 20px;
+    }
+
+    #inline p{
+        padding-bottom: 0px;
+    }
+
+    #Inside{
+        width: 90%;
+    }
+
+    aside{
+        width: 30%;
+    }
+
+    aside h2{
+        padding-left: 0px;
+    }
+
+    aside button{
+        width: 90%;
+    }
+
+    .Align1{
+        width: 50%;
+        padding-left: 10%;
+    
+    }
+
+    .Align2{
+        width: 50%;
+        padding-left: 10%;
+    }
+
+    .Align3{
+        width: 50%;
+        padding-left: 10%;
+    }
+
+    
+}
+
+
+
+@media screen and (max-width: 500px){
+
+
+    footer{
+        height: 400px;
+    }
+
+    footer div{
+        display: block;
+        width: 90%;
+        padding-top: 10px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    footer div:first-child{
+        float: left;
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        display: block;
+    }
+    
+    footer div:nth-child(2){
+        width: 90%;
+        display: inline-block;
+        padding-left: 5%;
+        padding-right: 5%;
+        display: block;
+    }
+    
+    footer div:last-child{
+        float: right;
+        text-align: right;
+        padding-right: 5%;
+        padding-left: 5%;
+        width: 90%;
+        color: white;
+
+        display: block;
+        padding-top: 10px;
+        text-align: left;
+    }
+    
+    
+    footer div a:last-child{
+        text-decoration: none;
+        color: white;
+        text-align: justify;
+        display: block;
+        padding-left: 0%;
+        padding-right: 5%;
+        width: 90%;
+    }
+
+
+    footer div p{
+        margin: 0%;
+    }
+
+
+    #Overlap div {
+        padding-bottom: 0%;
+        width: 80%;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 50%;
+    }
+
+
+    #Hero img{
+        padding: 0%;
+    }
+
+
+    #Space div{
+        padding-left: 0%;
+    }
+
+
+    #Container div{
+        padding-left: 0%;
+    }
+
+
+    .point{
+        padding-top: 15%;
+    }
+
+
+    .Content1 img{
+        width: 80%;
+    }
+
+
+    #inline img{
+        padding-left: 10%;
+        padding-right: 10%;
+        width: 80%;
+    }
+
+
+    .Linking{
+        padding-bottom: 10px;
+        width: 40%;
+    }
+
+
+    table{
+        margin-left: 3%;
+    }
+
+    header{
+        padding-bottom: 15%;
+    }
+}
+
+@media screen and (max-width: 375px){
+    #Overlap div {
+        padding-bottom: 0%;
+        width: 80%;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 100%;
+    }
+}
+
+
+@media screen and (max-width: 500px){
+
+    .mobnav1 nav a:not(:last-child) {
+        display: none;
+    }
+
+    .movnav1 nav a .think{
+        display: block;
+        float: right;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+
+    .movnav1.responsive nav {
+        position: relative;
+    }
+
+    .mobnav1.responsive nav .think{
+        top: 0;
+        right: 0;
+        position: absolute;
+    }
+
+    .mobnav1.responsive nav a{
+        text-align: left;
+        display: block;
+        float: none;
+    } 
+
+}
